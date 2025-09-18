@@ -1,0 +1,6 @@
+let frutas = [ "Uva", "Melão","Melancia","Laranja", "Limão", "Manga", "Maçã", "Maçã Verde", "Pera",
+    "Pêssego", "Cereja", "Morango", ]
+
+for(const fruta of frutas){
+    alert(fruta);
+}
