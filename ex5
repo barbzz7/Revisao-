@@ -1,0 +1,26 @@
+let dia=Number(prompt("Digite um numero de 1 a 7 para o dia da semana: "))
+switch(dia){
+    case 1: 
+    alert("Segunda-feira: mais um dia, lindo dia..")
+    break
+        case 2:
+        alert("Terça-feira: é quase quarta")
+        break
+          case 3:
+          alert("Quarta-feira: dia de jogo")
+          break
+              case 4:
+              alert("Quinta-feira: amanhã ja é sexta!")
+              break
+                case 5: 
+                alert("Sexta-feira: Finalmente!!!!!")
+                break
+                   case 6: 
+                   alert("Sabado: dia de limpar a casa")
+                   break
+                      case 7: 
+                      alert("Domingou: Dia de descansar pq amnha ja é Segunda")
+                      break
+                 default:
+                 alert("dia invalido")
+}
