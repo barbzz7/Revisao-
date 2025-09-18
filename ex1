@@ -1,0 +1,4 @@
+const nome = prompt("Qual seu nome?")
+const idadeUsuario = Number(prompt("Qual sua idade?"))
+alert(`Perfeito, ${nome}! Com seus ${idadeUsuario}anos, Você está pronto(a) para jornada incrível!`)
+
