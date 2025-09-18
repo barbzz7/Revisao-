@@ -1,0 +1,13 @@
+let n1 = prompt("digite um número: ");
+let n2 = prompt("digite outro número: ");
+
+function maior(){
+    if((n1 - n2) < 0){
+        alert(`o maior número é ${n2}`);
+    }else if((n1 - n2) > 0){
+        alert(`o maior número é ${n1}`);
+    }else {
+        alert("Os números são iguais");
+    }
+}
+maior(n1,n2);
