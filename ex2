@@ -1,0 +1,15 @@
+    let operacoes = Number(prompt("Digite o primeiro numero:"))
+        let operacoes2 = Number(prompt("Digite o segundo numero:"))
+        
+        let some = operacoes + operacoes2
+        let subtacao = operacoes - operacoes2
+        let multipicacao = operacoes * operacoes2
+        let divisao = operacoes / operacoes2
+
+
+        alert(`Seus resultados foram:
+        Soma=${some}
+        Subtração=${subtacao}
+        Multiplicação=${multipicacao}
+        Divisão=${divisao}`)
+    
